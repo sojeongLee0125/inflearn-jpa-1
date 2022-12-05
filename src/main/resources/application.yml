@@ -12,6 +12,7 @@ spring:
     properties:
       hibernate:
         default_batch_fetch_size: 100
+#    open-in-view: false 영속성 컨텍스트 생존 범위 트랜잭션 내로 제한하는 옵션
 logging:
   level:
     org.hibernate.SQL: debug
